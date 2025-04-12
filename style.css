@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.Header{
+    display: flex;
+    background-color: #1691E2;
+    border-radius: 15px;
+}
+.Header div:first-child{
+    flex:1
+}
+.Header div:last-child{
+    flex:2
+}
+.Header h1{
+    text-align: center;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.Header img{
+    margin: 10px 10px;
+}
+.Menu >li{
+    padding: 0 16px;
+    line-height: 54px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+.Menu .Text1 ul >li >a{
+    color: white;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+.Menu .Text1 ul >li:hover{
+    background-color: white;
+    border-radius: 15px;
+    /* cursor: pointer; */
+}
+.Menu .Text1 ul >li:hover a{
+    color: #E84D7F;
+    border-radius: 15px;
+}
+.Menu{
+    display: flex;
+    height: 500px;
+    gap: 40px;
+}
+.Menu div:first-child{
+    flex:1
+}
+.Menu div:last-child{
+    flex:6
+}
+.Menu .Text1{
+    background-color: aliceblue;
+    border-radius: 15px;
+    
+}
+.Menu .Text1 ul {
+    padding: 0;
+}
+.Menu .Text1 ul li{
+    text-align: center;
+    padding: 20px 20px;
+    border-bottom: 1px solid black;
+}
+.Menu .Text1 ul li a{
+    color: #1691E2;
+}
+.Menu .Text2 h2{
+    text-align: center ;
+    margin: 15px auto;
+}
+.End{
+    height: 100px;
+    background-color: #1691E2;
+    border-radius: 15px;
+}
+.Menu .Text2 {
+    margin-top: 20px;
+}
+.Menu .Text2 table {
+    margin-top: 20px;
+}
+.Menu .Phude > h2 a{
+    background-color: aliceblue;
+    color: #E84D7F;
+    border-radius: 15px ;
+    padding: 10px 10px;
+}
