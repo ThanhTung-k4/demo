@@ -11,7 +11,7 @@ if (isset($_POST['btnTimkiem']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = $_POST['id'];
     $name = $_POST['name'];
     try {
-        $sinhvienQuery = $con->query("select * from sinh_vien where id like '%$id%' and name like '%$name%'");
+        $sinhvienQuery = $con->query("select * from sinh_vien_moi where id like '%$id%' and name like '%$name%'");
     } catch (Exception $e) {
         // echo $e->getMessage();
         echo '<script>alert("ERROR")</script>';
